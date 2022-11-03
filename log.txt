@@ -1,0 +1,628 @@
+%TESTS  2,testConsumerFallBehindThresholdOverflow(org.apache.rocketmq.common.BrokerConfigTest)
+
+%TESTE  2,testConsumerFallBehindThresholdOverflow(org.apache.rocketmq.common.BrokerConfigTest)
+
+%TESTS  3,testBrokerConfigAttribute(org.apache.rocketmq.common.BrokerConfigTest)
+
+%TESTE  3,testBrokerConfigAttribute(org.apache.rocketmq.common.BrokerConfigTest)
+
+%TESTS  5,testDecodeWhenCompatible(org.apache.rocketmq.common.TopicConfigTest)
+
+%TESTE  5,testDecodeWhenCompatible(org.apache.rocketmq.common.TopicConfigTest)
+
+%TESTS  6,testDecode(org.apache.rocketmq.common.TopicConfigTest)
+
+%TESTE  6,testDecode(org.apache.rocketmq.common.TopicConfigTest)
+
+%TESTS  7,testEncode(org.apache.rocketmq.common.TopicConfigTest)
+
+%TESTE  7,testEncode(org.apache.rocketmq.common.TopicConfigTest)
+
+%TESTS  9,testCleanBuffer(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  9,testCleanBuffer(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  10,testJoin(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  10,testJoin(org.apache.rocketmq.common.UtilAllTest)
+%TESTS  11,testCurrentStackTrace(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  11,testCurrentStackTrace(org.apache.rocketmq.common.UtilAllTest)
+%TESTS  12,testIPv6Check(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  12,testIPv6Check(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  13,testProperties2Object(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  13,testProperties2Object(org.apache.rocketmq.common.UtilAllTest)
+%TESTS  14,testProperties2String(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  14,testProperties2String(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  15,testGetDiskPartitionSpaceUsedPercent(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  15,testGetDiskPartitionSpaceUsedPercent(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  16,testIsPropertiesEqual(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  16,testIsPropertiesEqual(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  17,testGetPid(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  17,testGetPid(org.apache.rocketmq.common.UtilAllTest)
+%TESTS  18,testInvoke(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  18,testInvoke(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  19,testMethod(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  19,testMethod(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  20,testIsBlank(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTE  20,testIsBlank(org.apache.rocketmq.common.UtilAllTest)
+
+%TESTS  22,testConstructorError(org.apache.rocketmq.common.CountDownLatch2Test)
+
+%TESTE  22,testConstructorError(org.apache.rocketmq.common.CountDownLatch2Test)
+%TESTS  23,testReset(org.apache.rocketmq.common.CountDownLatch2Test)
+
+%TESTE  23,testReset(org.apache.rocketmq.common.CountDownLatch2Test)
+%TESTS  24,testAwaitTimeout(org.apache.rocketmq.common.CountDownLatch2Test)
+
+%TESTE  24,testAwaitTimeout(org.apache.rocketmq.common.CountDownLatch2Test)
+
+%TESTS  25,testCountDownAndGetCount(org.apache.rocketmq.common.CountDownLatch2Test)
+
+%TESTE  25,testCountDownAndGetCount(org.apache.rocketmq.common.CountDownLatch2Test)
+%TESTS  26,testConstructor(org.apache.rocketmq.common.CountDownLatch2Test)
+
+%TESTE  26,testConstructor(org.apache.rocketmq.common.CountDownLatch2Test)
+
+%TESTS  28,testStop(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTE  28,testStop(org.apache.rocketmq.common.ServiceThreadTest)
+%TESTS  29,testWaitForRunning(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTE  29,testWaitForRunning(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTS  30,testShutdown(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTE  30,testShutdown(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTS  31,testMakeStop(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTE  31,testMakeStop(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTS  32,testWakeup(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTE  32,testWakeup(org.apache.rocketmq.common.ServiceThreadTest)
+
+%TESTS  34,testIsLmq(org.apache.rocketmq.common.MixAllTest)
+
+%TESTE  34,testIsLmq(org.apache.rocketmq.common.MixAllTest)
+
+%TESTS  35,testFile2String(org.apache.rocketmq.common.MixAllTest)
+
+%TESTE  35,testFile2String(org.apache.rocketmq.common.MixAllTest)
+
+%TESTS  36,testCompareAndIncreaseOnly(org.apache.rocketmq.common.MixAllTest)
+
+%TESTE  36,testCompareAndIncreaseOnly(org.apache.rocketmq.common.MixAllTest)
+
+%TESTS  37,testGetLocalhostByNetworkInterface(org.apache.rocketmq.common.MixAllTest)
+
+%TESTE  37,testGetLocalhostByNetworkInterface(org.apache.rocketmq.common.MixAllTest)
+
+%TESTS  38,testBrokerVIPChannel(org.apache.rocketmq.common.MixAllTest)
+%TESTE  38,testBrokerVIPChannel(org.apache.rocketmq.common.MixAllTest)
+
+%TESTS  39,testGetLocalInetAddress(org.apache.rocketmq.common.MixAllTest)
+
+%TESTE  39,testGetLocalInetAddress(org.apache.rocketmq.common.MixAllTest)
+
+%TESTS  40,testString2File(org.apache.rocketmq.common.MixAllTest)
+
+%TESTE  40,testString2File(org.apache.rocketmq.common.MixAllTest)
+
+%TESTS  42,testEquals_trueWhenCountersBothNull(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTE  42,testEquals_trueWhenCountersBothNull(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTS  43,testEquals_falseWhenCounterDifferent2(org.apache.rocketmq.common.DataVersionTest)
+%TESTE  43,testEquals_falseWhenCounterDifferent2(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTS  44,testEquals_falseWhenCounterDifferent3(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTE  44,testEquals_falseWhenCounterDifferent3(org.apache.rocketmq.common.DataVersionTest)
+%TESTS  45,testEncode(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTE  45,testEncode(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTS  46,testEquals(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTE  46,testEquals(org.apache.rocketmq.common.DataVersionTest)
+%TESTS  47,testEquals_falseWhenCounterDifferent(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTE  47,testEquals_falseWhenCounterDifferent(org.apache.rocketmq.common.DataVersionTest)
+
+%TESTS  49,testEncodeDecodeSingle(org.apache.rocketmq.common.MessageEncodeDecodeTest)
+
+%TESTE  49,testEncodeDecodeSingle(org.apache.rocketmq.common.MessageEncodeDecodeTest)
+%TESTS  50,testEncodeDecodeList(org.apache.rocketmq.common.MessageEncodeDecodeTest)
+
+%TESTE  50,testEncodeDecodeList(org.apache.rocketmq.common.MessageEncodeDecodeTest)
+
+%TESTS  52,testLoad(org.apache.rocketmq.common.ConfigManagerTest)
+
+%TESTE  52,testLoad(org.apache.rocketmq.common.ConfigManagerTest)
+
+%TESTS  53,testPersist(org.apache.rocketmq.common.ConfigManagerTest)
+
+%TESTE  53,testPersist(org.apache.rocketmq.common.ConfigManagerTest)
+
+%TESTS  54,testLoadBak(org.apache.rocketmq.common.ConfigManagerTest)
+
+%TESTE  54,testLoadBak(org.apache.rocketmq.common.ConfigManagerTest)
+
+%TESTS  56,testGetVersionDesc(org.apache.rocketmq.common.MQVersionTest)
+
+%TESTE  56,testGetVersionDesc(org.apache.rocketmq.common.MQVersionTest)
+%TESTS  57,testGetVersionDesc_higherVersion(org.apache.rocketmq.common.MQVersionTest)
+
+%TESTE  57,testGetVersionDesc_higherVersion(org.apache.rocketmq.common.MQVersionTest)
+%TESTS  58,testValue2Version(org.apache.rocketmq.common.MQVersionTest)
+
+%TESTE  58,testValue2Version(org.apache.rocketmq.common.MQVersionTest)
+
+%TESTS  59,testValue2Version_HigherVersion(org.apache.rocketmq.common.MQVersionTest)
+
+%TESTE  59,testValue2Version_HigherVersion(org.apache.rocketmq.common.MQVersionTest)
+
+%TESTS  61,testGenerate_OK(org.apache.rocketmq.common.MessageBatchTest)
+
+%TESTE  61,testGenerate_OK(org.apache.rocketmq.common.MessageBatchTest)
+%TESTS  62,testGenerate_Delay(org.apache.rocketmq.common.MessageBatchTest)
+
+%TESTE  62,testGenerate_Delay(org.apache.rocketmq.common.MessageBatchTest)
+%TESTS  63,testGenerate_DiffWaitOK(org.apache.rocketmq.common.MessageBatchTest)
+
+%TESTE  63,testGenerate_DiffWaitOK(org.apache.rocketmq.common.MessageBatchTest)
+%TESTS  64,testGenerate_Retry(org.apache.rocketmq.common.MessageBatchTest)
+
+%TESTE  64,testGenerate_Retry(org.apache.rocketmq.common.MessageBatchTest)
+%TESTS  65,testGenerate_DiffTopic(org.apache.rocketmq.common.MessageBatchTest)
+
+%TESTE  65,testGenerate_DiffTopic(org.apache.rocketmq.common.MessageBatchTest)
+
+%TESTS  67,test_encode_decode(org.apache.rocketmq.common.RegisterBrokerBodyTest)
+
+%TESTE  67,test_encode_decode(org.apache.rocketmq.common.RegisterBrokerBodyTest)
+
+%TESTS  69,testGetLocalAddress(org.apache.rocketmq.common.RemotingUtilTest)
+
+%TESTE  69,testGetLocalAddress(org.apache.rocketmq.common.RemotingUtilTest)
+%TESTS  70,testConvert2IpStringWithHost(org.apache.rocketmq.common.RemotingUtilTest)
+
+%TESTE  70,testConvert2IpStringWithHost(org.apache.rocketmq.common.RemotingUtilTest)
+
+%TESTS  71,testConvert2IpStringWithIp(org.apache.rocketmq.common.RemotingUtilTest)
+
+%TESTE  71,testConvert2IpStringWithIp(org.apache.rocketmq.common.RemotingUtilTest)
+
+%TESTS  73,testTopicRouteDataJsonSerialize(org.apache.rocketmq.common.protocol.route.TopicRouteDataTest)
+
+%TESTE  73,testTopicRouteDataJsonSerialize(org.apache.rocketmq.common.protocol.route.TopicRouteDataTest)
+
+%TESTS  74,testTopicRouteDataClone(org.apache.rocketmq.common.protocol.route.TopicRouteDataTest)
+
+%TESTE  74,testTopicRouteDataClone(org.apache.rocketmq.common.protocol.route.TopicRouteDataTest)
+%TESTS  76,testLitePullFlagFalse(org.apache.rocketmq.common.sysflag.PullSysFlagTest)
+
+%TESTE  76,testLitePullFlagFalse(org.apache.rocketmq.common.sysflag.PullSysFlagTest)
+%TESTS  77,testLitePullFlag(org.apache.rocketmq.common.sysflag.PullSysFlagTest)
+
+%TESTE  77,testLitePullFlag(org.apache.rocketmq.common.sysflag.PullSysFlagTest)
+
+%TESTS  79,testCompressionFlag(org.apache.rocketmq.common.sysflag.CompressionFlagTest)
+
+%TESTE  79,testCompressionFlag(org.apache.rocketmq.common.sysflag.CompressionFlagTest)
+%TESTS  80,testCompressionFlagNotMatch(org.apache.rocketmq.common.sysflag.CompressionFlagTest)
+
+%TESTE  80,testCompressionFlagNotMatch(org.apache.rocketmq.common.sysflag.CompressionFlagTest)
+
+%TESTS  82,testTargetBrokersComplete(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTE  82,testTargetBrokersComplete(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTS  83,testCreateStaticTopic(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTE  83,testCreateStaticTopic(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTS  84,testRemappingStaticTopic(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTE  84,testRemappingStaticTopic(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTS  85,testRemappingStaticTopicStability(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTE  85,testRemappingStaticTopicStability(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+%TESTS  86,testRemappingAllocator(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTE  86,testRemappingAllocator(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTS  87,testAllocator(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTE  87,testAllocator(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTS  88,testUtilsCheck(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTE  88,testUtilsCheck(org.apache.rocketmq.common.statictopic.TopicQueueMappingUtilsTest)
+
+%TESTS  90,testJsonSerialize(org.apache.rocketmq.common.statictopic.TopicQueueMappingTest)
+
+%TESTE  90,testJsonSerialize(org.apache.rocketmq.common.statictopic.TopicQueueMappingTest)
+
+%TESTS  91,test(org.apache.rocketmq.common.statictopic.TopicQueueMappingTest)
+
+%TESTE  91,test(org.apache.rocketmq.common.statictopic.TopicQueueMappingTest)
+
+%TESTS  93,test_statsOfFirstStatisticsCycle(org.apache.rocketmq.common.stats.StatsItemSetTest)
+
+%TESTE  93,test_statsOfFirstStatisticsCycle(org.apache.rocketmq.common.stats.StatsItemSetTest)
+
+%TESTS  94,test_getAndCreateMomentStatsItem_multiThread(org.apache.rocketmq.common.stats.StatsItemSetTest)
+
+%TESTE  94,test_getAndCreateMomentStatsItem_multiThread(org.apache.rocketmq.common.stats.StatsItemSetTest)
+
+%TESTS  95,test_getAndCreateStatsItem_multiThread(org.apache.rocketmq.common.stats.StatsItemSetTest)
+
+%TESTE  95,test_getAndCreateStatsItem_multiThread(org.apache.rocketmq.common.stats.StatsItemSetTest)
+
+%TESTS  97,testFastDecode(org.apache.rocketmq.common.protocol.header.FastCodesHeaderTest)
+
+%TESTE  97,testFastDecode(org.apache.rocketmq.common.protocol.header.FastCodesHeaderTest)
+
+%TESTS  99,testNextDelayDuration(org.apache.rocketmq.common.subscription.ExponentialRetryPolicyTest)
+
+%TESTE  99,testNextDelayDuration(org.apache.rocketmq.common.subscription.ExponentialRetryPolicyTest)
+
+%TESTS  100,testNextDelayDurationOutOfRange(org.apache.rocketmq.common.subscription.ExponentialRetryPolicyTest)
+
+%TESTE  100,testNextDelayDurationOutOfRange(org.apache.rocketmq.common.subscription.ExponentialRetryPolicyTest)
+
+%TESTS  102,testGetRetryPolicy(org.apache.rocketmq.common.subscription.GroupRetryPolicyTest)
+
+%TESTE  102,testGetRetryPolicy(org.apache.rocketmq.common.subscription.GroupRetryPolicyTest)
+
+%TESTS  104,testNextDelayDuration(org.apache.rocketmq.common.subscription.CustomizedRetryPolicyTest)
+
+%TESTE  104,testNextDelayDuration(org.apache.rocketmq.common.subscription.CustomizedRetryPolicyTest)
+
+%TESTS  105,testNextDelayDurationOutOfRange(org.apache.rocketmq.common.subscription.CustomizedRetryPolicyTest)
+
+%TESTE  105,testNextDelayDurationOutOfRange(org.apache.rocketmq.common.subscription.CustomizedRetryPolicyTest)
+
+%TESTS  107,testBuildTagSome(org.apache.rocketmq.common.filter.FilterAPITest)
+
+%TESTE  107,testBuildTagSome(org.apache.rocketmq.common.filter.FilterAPITest)
+%TESTS  108,testBuildSQL(org.apache.rocketmq.common.filter.FilterAPITest)
+
+%TESTE  108,testBuildSQL(org.apache.rocketmq.common.filter.FilterAPITest)
+%TESTS  109,testBuildSQLWithNullSubString(org.apache.rocketmq.common.filter.FilterAPITest)
+
+%TESTE  109,testBuildSQLWithNullSubString(org.apache.rocketmq.common.filter.FilterAPITest)
+
+%TESTS  110,testBuildSubscriptionData(org.apache.rocketmq.common.filter.FilterAPITest)
+
+%TESTE  110,testBuildSubscriptionData(org.apache.rocketmq.common.filter.FilterAPITest)
+
+%TESTS  112,testTopicValidator_Pass(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTE  112,testTopicValidator_Pass(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTS  113,testIsSystemTopic(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTE  113,testIsSystemTopic(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTS  114,testIsNotAllowedSendTopic(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTE  114,testIsNotAllowedSendTopic(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTS  115,testIsNotAllowedSendTopicWithResponse(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTE  115,testIsNotAllowedSendTopicWithResponse(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTS  116,testTopicValidator_NotPass(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTE  116,testTopicValidator_NotPass(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTS  117,testIsSystemTopicWithResponse(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTE  117,testIsSystemTopicWithResponse(org.apache.rocketmq.common.topic.TopicValidatorTest)
+%TESTS  118,testAddSystemTopic(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTE  118,testAddSystemTopic(org.apache.rocketmq.common.topic.TopicValidatorTest)
+
+%TESTS  120,testCompressionUnsupportedType(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTE  120,testCompressionUnsupportedType(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTS  121,testCompressionZlib(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTE  121,testCompressionZlib(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTS  122,testCompressionZstd(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTE  122,testCompressionZstd(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTS  123,testCompressionLz4(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTE  123,testCompressionLz4(org.apache.rocketmq.common.compression.CompressionTest)
+
+%TESTS  125,testEncodeAndDecodeOnIPv6Host(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTE  125,testEncodeAndDecodeOnIPv6Host(org.apache.rocketmq.common.message.MessageDecoderTest)
+%TESTS  126,testMessageId(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTE  126,testMessageId(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTS  127,testEncodeAndDecode(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTE  127,testEncodeAndDecode(org.apache.rocketmq.common.message.MessageDecoderTest)
+%TESTS  128,testDecodeProperties(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTE  128,testDecodeProperties(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTS  129,testString2messageProperties(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTE  129,testString2messageProperties(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTS  130,testDecodePropertiesOnIPv6Host(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTE  130,testDecodePropertiesOnIPv6Host(org.apache.rocketmq.common.message.MessageDecoderTest)
+%TESTS  131,testNullValueProperty(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTE  131,testNullValueProperty(org.apache.rocketmq.common.message.MessageDecoderTest)
+
+%TESTS  133,testGetPidFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+
+%TESTE  133,testGetPidFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+
+%TESTS  134,testGetCountFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+%TESTE  134,testGetCountFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+%TESTS  135,testGetIPStrFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+
+%TESTE  135,testGetIPStrFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+%TESTS  136,testGetTimeFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+
+%TESTE  136,testGetTimeFromID(org.apache.rocketmq.common.message.MessageClientIDSetterTest)
+
+%TESTS  138,putUserNullValuePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTE  138,putUserNullValuePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTS  139,putUserNullNamePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTE  139,putUserNullNamePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTS  140,putUserEmptyValuePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTE  140,putUserEmptyValuePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTS  141,putUserPropertyWithRuntimeException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTE  141,putUserPropertyWithRuntimeException(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTS  142,putUserProperty(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTE  142,putUserProperty(org.apache.rocketmq.common.message.MessageTest)
+
+%TESTS  143,putUserEmptyNamePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+%TESTE  143,putUserEmptyNamePropertyWithException(org.apache.rocketmq.common.message.MessageTest)
+%TESTS  145,testParseToMap(org.apache.rocketmq.common.attribute.AttributeParserTest)
+
+%TESTE  145,testParseToMap(org.apache.rocketmq.common.attribute.AttributeParserTest)
+
+%TESTS  146,testParseToString(org.apache.rocketmq.common.attribute.AttributeParserTest)
+
+%TESTE  146,testParseToString(org.apache.rocketmq.common.attribute.AttributeParserTest)
+%TESTS  147,testParseBetweenStringAndMapWithoutDistortion(org.apache.rocketmq.common.attribute.AttributeParserTest)
+
+%TESTE  147,testParseBetweenStringAndMapWithoutDistortion(org.apache.rocketmq.common.attribute.AttributeParserTest)
+
+%TESTS  149,testBooleanAttribute(org.apache.rocketmq.common.attribute.AttributeTest)
+
+%TESTE  149,testBooleanAttribute(org.apache.rocketmq.common.attribute.AttributeTest)
+
+%TESTS  150,testLongRangeAttribute(org.apache.rocketmq.common.attribute.AttributeTest)
+
+%TESTE  150,testLongRangeAttribute(org.apache.rocketmq.common.attribute.AttributeTest)
+%TESTS  151,testEnumAttribute(org.apache.rocketmq.common.attribute.AttributeTest)
+
+%TESTE  151,testEnumAttribute(org.apache.rocketmq.common.attribute.AttributeTest)
+
+%TESTS  153,testConstructor1(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+
+%TESTE  153,testConstructor1(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+%TESTS  154,testConstructor2(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+
+%TESTE  154,testConstructor2(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+%TESTS  155,testHashCodeNotEquals(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+
+%TESTE  155,testHashCodeNotEquals(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+%TESTS  156,testCompareTo(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+
+%TESTE  156,testCompareTo(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+
+%TESTS  157,testFromJson(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+
+%TESTE  157,testFromJson(org.apache.rocketmq.common.protocol.heartbeat.SubscriptionDataTest)
+
+%TESTS  159,testGetOffsetTable(org.apache.rocketmq.common.admin.TopicStatsTableTest)
+
+%TESTE  159,testGetOffsetTable(org.apache.rocketmq.common.admin.TopicStatsTableTest)
+%TESTS  160,testFromJson(org.apache.rocketmq.common.admin.TopicStatsTableTest)
+
+%TESTE  160,testFromJson(org.apache.rocketmq.common.admin.TopicStatsTableTest)
+
+%TESTS  162,testCopy(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  162,testCopy(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+%TESTS  163,testToString(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  163,testToString(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTS  164,testWriteStringToFile(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  164,testWriteStringToFile(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+%TESTS  165,testReadLines(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  165,testReadLines(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+%TESTS  166,testCopyFile(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  166,testCopyFile(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTS  167,testToBufferedReader(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  167,testToBufferedReader(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTS  168,testDelete(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  168,testDelete(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTS  169,testCleanDirectory(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTE  169,testCleanDirectory(org.apache.rocketmq.common.utils.IOTinyUtilsTest)
+
+%TESTS  171,testAbNormalWriteAndRead(org.apache.rocketmq.common.utils.CheckpointFileTest)
+
+%TESTE  171,testAbNormalWriteAndRead(org.apache.rocketmq.common.utils.CheckpointFileTest)
+
+%TESTS  172,testNormalWriteAndRead(org.apache.rocketmq.common.utils.CheckpointFileTest)
+
+%TESTE  172,testNormalWriteAndRead(org.apache.rocketmq.common.utils.CheckpointFileTest)
+
+%TESTS  174,computeIfAbsent(org.apache.rocketmq.common.utils.ConcurrentHashMapUtilsTest)
+
+%TESTE  174,computeIfAbsent(org.apache.rocketmq.common.utils.ConcurrentHashMapUtilsTest)
+
+%TESTS  176,testGetNameSrvAddrFromNamesrvEndpoint(org.apache.rocketmq.common.utils.NameServerAddressUtilsTest)
+
+%TESTE  176,testGetNameSrvAddrFromNamesrvEndpoint(org.apache.rocketmq.common.utils.NameServerAddressUtilsTest)
+%TESTS  177,testParseInstanceIdFromEndpoint(org.apache.rocketmq.common.utils.NameServerAddressUtilsTest)
+
+%TESTE  177,testParseInstanceIdFromEndpoint(org.apache.rocketmq.common.utils.NameServerAddressUtilsTest)
+%TESTS  178,testValidateInstanceEndpoint(org.apache.rocketmq.common.utils.NameServerAddressUtilsTest)
+
+%TESTE  178,testValidateInstanceEndpoint(org.apache.rocketmq.common.utils.NameServerAddressUtilsTest)
+
+%TESTS  180,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumeMessageDirectlyResultTest)
+
+%TESTE  180,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumeMessageDirectlyResultTest)
+
+%TESTS  182,testFromJson(org.apache.rocketmq.common.protocol.body.MessageRequestModeSerializeWrapperTest)
+
+%TESTE  182,testFromJson(org.apache.rocketmq.common.protocol.body.MessageRequestModeSerializeWrapperTest)
+
+%TESTS  184,test(org.apache.rocketmq.common.protocol.body.QueryConsumeQueueResponseBodyTest)
+
+%TESTE  184,test(org.apache.rocketmq.common.protocol.body.QueryConsumeQueueResponseBodyTest)
+
+%TESTS  186,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumerConnectionTest)
+
+%TESTE  186,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumerConnectionTest)
+
+%TESTS  187,testComputeMinVersion(org.apache.rocketmq.common.protocol.body.ConsumerConnectionTest)
+%TESTE  187,testComputeMinVersion(org.apache.rocketmq.common.protocol.body.ConsumerConnectionTest)
+
+%TESTS  189,testFromJson(org.apache.rocketmq.common.protocol.body.SubscriptionGroupWrapperTest)
+
+%TESTE  189,testFromJson(org.apache.rocketmq.common.protocol.body.SubscriptionGroupWrapperTest)
+
+%TESTS  191,testFromJson(org.apache.rocketmq.common.protocol.body.ResetOffsetBodyTest)
+
+%TESTE  191,testFromJson(org.apache.rocketmq.common.protocol.body.ResetOffsetBodyTest)
+%TESTS  193,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumeStatsListTest)
+
+%TESTE  193,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumeStatsListTest)
+
+%TESTS  195,testFromJson(org.apache.rocketmq.common.protocol.body.CheckClientRequestBodyTest)
+
+%TESTE  195,testFromJson(org.apache.rocketmq.common.protocol.body.CheckClientRequestBodyTest)
+
+%TESTS  197,testFromJson(org.apache.rocketmq.common.protocol.body.BrokerStatsDataTest)
+
+%TESTE  197,testFromJson(org.apache.rocketmq.common.protocol.body.BrokerStatsDataTest)
+
+%TESTS  199,testFromJson(org.apache.rocketmq.common.protocol.body.QueryCorrectionOffsetBodyTest)
+
+%TESTE  199,testFromJson(org.apache.rocketmq.common.protocol.body.QueryCorrectionOffsetBodyTest)
+
+%TESTS  201,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+
+%TESTE  201,testFromJson(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+
+%TESTS  202,testAnalyzeSubscription(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+
+%TESTE  202,testAnalyzeSubscription(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+%TESTS  203,testAnalyzeRebalance(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+
+%TESTE  203,testAnalyzeRebalance(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+
+%TESTS  204,testAnalyzeProcessQueue(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+
+%TESTE  204,testAnalyzeProcessQueue(org.apache.rocketmq.common.protocol.body.ConsumerRunningInfoTest)
+
+%TESTS  206,testFromJson(org.apache.rocketmq.common.protocol.body.KVTableTest)
+
+%TESTE  206,testFromJson(org.apache.rocketmq.common.protocol.body.KVTableTest)
+
+%TESTS  208,testFromJson(org.apache.rocketmq.common.protocol.topic.OffsetMovedEventTest)
+
+%TESTE  208,testFromJson(org.apache.rocketmq.common.protocol.topic.OffsetMovedEventTest)
+%TESTS  209,testFromBytes(org.apache.rocketmq.common.protocol.topic.OffsetMovedEventTest)
+
+%TESTE  209,testFromBytes(org.apache.rocketmq.common.protocol.topic.OffsetMovedEventTest)
+
+%TESTS  211,testFromJson(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+
+%TESTE  211,testFromJson(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+
+%TESTS  212,testFromJsonRandom(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+
+%TESTE  212,testFromJsonRandom(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+%TESTS  213,testEncode(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+
+%TESTE  213,testEncode(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+%TESTS  214,testSetGet(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+
+%TESTE  214,testSetGet(org.apache.rocketmq.common.protocol.QueryConsumeTimeSpanBodyTest)
+
+%TESTS  216,testWithoutNamespace(org.apache.rocketmq.common.protocol.NamespaceUtilTest)
+
+%TESTE  216,testWithoutNamespace(org.apache.rocketmq.common.protocol.NamespaceUtilTest)
+%TESTS  217,testWrapNamespace(org.apache.rocketmq.common.protocol.NamespaceUtilTest)
+
+%TESTE  217,testWrapNamespace(org.apache.rocketmq.common.protocol.NamespaceUtilTest)
+%TESTS  218,testGetNamespaceFromResource(org.apache.rocketmq.common.protocol.NamespaceUtilTest)
+
+%TESTE  218,testGetNamespaceFromResource(org.apache.rocketmq.common.protocol.NamespaceUtilTest)
+%TESTS  220,testRetrieveAllClusterNames(org.apache.rocketmq.common.protocol.ClusterInfoTest)
+
+%TESTE  220,testRetrieveAllClusterNames(org.apache.rocketmq.common.protocol.ClusterInfoTest)
+
+%TESTS  221,testFormJson(org.apache.rocketmq.common.protocol.ClusterInfoTest)
+
+%TESTE  221,testFormJson(org.apache.rocketmq.common.protocol.ClusterInfoTest)
+
+%TESTS  222,testRetrieveAllAddrByCluster(org.apache.rocketmq.common.protocol.ClusterInfoTest)
+
+%TESTE  222,testRetrieveAllAddrByCluster(org.apache.rocketmq.common.protocol.ClusterInfoTest)
+
+%TESTS  224,testFromJson(org.apache.rocketmq.common.protocol.ConsumeStatusTest)
+
+%TESTE  224,testFromJson(org.apache.rocketmq.common.protocol.ConsumeStatusTest)
+
+%TESTS  226,testSetGet(org.apache.rocketmq.common.protocol.GroupListTest)
+
+%TESTE  226,testSetGet(org.apache.rocketmq.common.protocol.GroupListTest)

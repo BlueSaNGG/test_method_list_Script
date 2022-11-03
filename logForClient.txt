@@ -1,0 +1,669 @@
+%TESTS  2,testSendMessageSync_WithBodyCompressed(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  2,testSendMessageSync_WithBodyCompressed(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  3,testSendMessage_ZeroMessage(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  3,testSendMessage_ZeroMessage(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  4,testSendMessage_NoRoute(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  4,testSendMessage_NoRoute(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  5,testSendMessageSync_SuccessWithHook(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  5,testSendMessageSync_SuccessWithHook(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  6,testSendMessageSync_Success(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  6,testSendMessageSync_Success(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  7,testAsyncRequest_OnException(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  7,testAsyncRequest_OnException(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  8,testBatchSendMessageAsync(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  8,testBatchSendMessageAsync(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  9,testSendMessage_NoNameSrv(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  9,testSendMessage_NoNameSrv(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  10,testAsyncRequest_OnSuccess(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  10,testAsyncRequest_OnSuccess(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  11,testSendMessageAsync_BodyCompressed(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  11,testSendMessageAsync_BodyCompressed(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  12,testRequestMessage_RequestTimeoutException(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  12,testRequestMessage_RequestTimeoutException(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  13,testSetCallbackExecutor(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  13,testSetCallbackExecutor(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  14,testSendMessageAsync_Success(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  14,testSendMessageAsync_Success(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  15,testSendMessageAsync(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  15,testSendMessageAsync(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  16,testRequestMessage(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTE  16,testRequestMessage(org.apache.rocketmq.client.producer.DefaultMQProducerTest)
+
+%TESTS  18,testExecuteRequestCallback(org.apache.rocketmq.client.producer.RequestResponseFutureTest)
+
+%TESTE  18,testExecuteRequestCallback(org.apache.rocketmq.client.producer.RequestResponseFutureTest)
+
+%TESTS  20,testRegisterConsumer(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTE  20,testRegisterConsumer(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTS  21,testFindBrokerAddressInSubscribe(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTE  21,testFindBrokerAddressInSubscribe(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTS  22,testConsumerRunningInfoWhenConsumersIsEmptyOrNot(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTE  22,testConsumerRunningInfoWhenConsumersIsEmptyOrNot(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTS  23,testTopicRouteData2TopicPublishInfo(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTE  23,testTopicRouteData2TopicPublishInfo(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTS  24,testRegisterProducer(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTE  24,testRegisterProducer(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTS  25,testRegisterAdminExt(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTE  25,testRegisterAdminExt(org.apache.rocketmq.client.impl.factory.MQClientInstanceTest)
+
+%TESTS  27,testComputePullFromWhereWithException_eq_minus1_last(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+
+%TESTE  27,testComputePullFromWhereWithException_eq_minus1_last(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+
+%TESTS  28,testComputePullFromWhereWithException_eq_minus1_timestamp(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+
+%TESTE  28,testComputePullFromWhereWithException_eq_minus1_timestamp(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+
+%TESTS  29,testComputePullFromWhereWithException_eq_minus1_first(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+
+%TESTE  29,testComputePullFromWhereWithException_eq_minus1_first(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+%TESTS  30,testComputePullFromWhereWithException_ne_minus1(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+
+%TESTE  30,testComputePullFromWhereWithException_ne_minus1(org.apache.rocketmq.client.impl.consumer.RebalanceLitePullImplTest)
+
+%TESTS  32,testFillProcessQueueInfo(org.apache.rocketmq.client.impl.consumer.ProcessQueueTest)
+
+%TESTE  32,testFillProcessQueueInfo(org.apache.rocketmq.client.impl.consumer.ProcessQueueTest)
+
+%TESTS  33,testCachedMessageCount(org.apache.rocketmq.client.impl.consumer.ProcessQueueTest)
+
+%TESTE  33,testCachedMessageCount(org.apache.rocketmq.client.impl.consumer.ProcessQueueTest)
+
+%TESTS  34,testCachedMessageSize(org.apache.rocketmq.client.impl.consumer.ProcessQueueTest)
+
+%TESTE  34,testCachedMessageSize(org.apache.rocketmq.client.impl.consumer.ProcessQueueTest)
+
+%TESTS  36,testConsumeMessageDirectly_WithNoException(org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyServiceTest)
+
+%TESTE  36,testConsumeMessageDirectly_WithNoException(org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyServiceTest)
+
+%TESTS  37,testConsumeThreadName(org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyServiceTest)
+
+%TESTE  37,testConsumeThreadName(org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyServiceTest)
+
+%TESTS  38,testConsumeMessageDirectly_WithException(org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyServiceTest)
+
+%TESTE  38,testConsumeMessageDirectly_WithException(org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyServiceTest)
+
+%TESTS  40,testMessageQueueChanged_SizeThreshold(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTE  40,testMessageQueueChanged_SizeThreshold(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+%TESTS  41,testMessageQueueChanged_ConsumerRuntimeInfo(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTE  41,testMessageQueueChanged_ConsumerRuntimeInfo(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTS  42,testComputePullFromWhereWithException_eq_minus1_last(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTE  42,testComputePullFromWhereWithException_eq_minus1_last(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTS  43,testComputePullFromWhereWithException_eq_minus1_timestamp(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTE  43,testComputePullFromWhereWithException_eq_minus1_timestamp(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+%TESTS  44,testComputePullFromWhereWithException_eq_minus1_first(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTE  44,testComputePullFromWhereWithException_eq_minus1_first(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTS  45,testComputePullFromWhereWithException_ne_minus1(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTE  45,testComputePullFromWhereWithException_ne_minus1(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTS  46,testMessageQueueChanged_CountThreshold(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTE  46,testMessageQueueChanged_CountThreshold(org.apache.rocketmq.client.impl.consumer.RebalancePushImplTest)
+
+%TESTS  48,testHook(org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImplTest)
+
+%TESTE  48,testHook(org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImplTest)
+
+%TESTS  49,@Ignore: testPush(org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImplTest)
+%TESTE  49,@Ignore: testPush(org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImplTest)
+
+%TESTS  50,checkConfigTest(org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImplTest)
+
+%TESTE  50,checkConfigTest(org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImplTest)
+
+%TESTS  52,testConsumeThreadName(org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyServiceTest)
+
+%TESTE  52,testConsumeThreadName(org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyServiceTest)
+
+%TESTS  53,testPullMessage_ConsumeSuccess(org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyServiceTest)
+
+%TESTE  53,testPullMessage_ConsumeSuccess(org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyServiceTest)
+
+%TESTS  55,testIsSystemTopic(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  55,testIsSystemTopic(org.apache.rocketmq.client.ValidatorsTest)
+%TESTS  56,testIsNotAllowedSendTopic(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  56,testIsNotAllowedSendTopic(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTS  57,testGroupNameBlank(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  57,testGroupNameBlank(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTS  58,testTopicConfigValid(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  58,testTopicConfigValid(org.apache.rocketmq.client.ValidatorsTest)
+%TESTS  59,testCheckTopic_BlankTopic(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  59,testCheckTopic_BlankTopic(org.apache.rocketmq.client.ValidatorsTest)
+%TESTS  60,testBrokerConfigValid(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  60,testBrokerConfigValid(org.apache.rocketmq.client.ValidatorsTest)
+%TESTS  61,testCheckTopic_TooLongTopic(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  61,testCheckTopic_TooLongTopic(org.apache.rocketmq.client.ValidatorsTest)
+%TESTS  62,testCheckTopic_Success(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  62,testCheckTopic_Success(org.apache.rocketmq.client.ValidatorsTest)
+%TESTS  63,testCheckTopic_HasIllegalCharacters(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTE  63,testCheckTopic_HasIllegalCharacters(org.apache.rocketmq.client.ValidatorsTest)
+
+%TESTS  65,testUpdateFaultItem(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+
+%TESTE  65,testUpdateFaultItem(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+%TESTS  66,testPickOneAtLeast(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+
+%TESTE  66,testPickOneAtLeast(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+
+%TESTS  67,testIsAvailable(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+
+%TESTE  67,testIsAvailable(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+
+%TESTS  68,testRemove(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+
+%TESTE  68,testRemove(org.apache.rocketmq.client.latency.LatencyFaultToleranceImplTest)
+
+%TESTS  70,testSelect(org.apache.rocketmq.client.producer.selector.SelectMessageQueueRetryTest)
+
+%TESTE  70,testSelect(org.apache.rocketmq.client.producer.selector.SelectMessageQueueRetryTest)
+
+%TESTS  72,testSelect(org.apache.rocketmq.client.producer.selector.SelectMessageQueueByHashTest)
+
+%TESTE  72,testSelect(org.apache.rocketmq.client.producer.selector.SelectMessageQueueByHashTest)
+
+%TESTS  74,testAssign_PollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  74,testAssign_PollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  75,testSubscribeWithListener_PollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  75,testSubscribeWithListener_PollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  76,testSubscribe_PollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  76,testSubscribe_PollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  77,testComputePullFromWhereReturned(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  77,testComputePullFromWhereReturned(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  78,testConsumerCommitWithMQ(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  78,testConsumerCommitWithMQ(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  79,testSubscriptionType_AssignAndSubscribeExclusive(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  79,testSubscriptionType_AssignAndSubscribeExclusive(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  80,testComputePullFromLast(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  80,testComputePullFromLast(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  81,testSeek_MessageQueueNotInAssignList(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  81,testSeek_MessageQueueNotInAssignList(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  82,testSeek_SeekOffsetIllegal(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  82,testSeek_SeekOffsetIllegal(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  83,testSeek_SeekToEnd(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  83,testSeek_SeekToEnd(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  84,testSeek_SeekToBegin(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  84,testSeek_SeekToBegin(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  85,testFetchMessageQueues_FetchMessageQueuesBeforeStart(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  85,testFetchMessageQueues_FetchMessageQueuesBeforeStart(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  86,testPauseAndResume_Success(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  86,testPauseAndResume_Success(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  87,testSeek_SeekOffsetSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  87,testSeek_SeekOffsetSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  88,testComputePullByTimeStamp(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  88,testComputePullByTimeStamp(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  89,testConsumerCommitSyncWithMQOffset(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  89,testConsumerCommitSyncWithMQOffset(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  90,testFlowControl_Success(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  90,testFlowControl_Success(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  91,testSubscribe_BroadcastPollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  91,testSubscribe_BroadcastPollMessageSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  92,testAssign_PollMessageWithTagSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  92,testAssign_PollMessageWithTagSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  93,testComputePullFromWhereReturnedNotFound(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  93,testComputePullFromWhereReturnedNotFound(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  94,testPullTaskImpl_ProcessQueueNull(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  94,testPullTaskImpl_ProcessQueueNull(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  95,testConsumerAfterShutdown(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  95,testConsumerAfterShutdown(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  96,testRegisterTopicMessageQueueChangeListener_Success(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  96,testRegisterTopicMessageQueueChangeListener_Success(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  97,testOffsetForTimestamp_FailedAndSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  97,testOffsetForTimestamp_FailedAndSuccess(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  98,testPullTaskImpl_ProcessQueueDropped(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  98,testPullTaskImpl_ProcessQueueDropped(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  99,testCheckConfig_Exception(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTE  99,testCheckConfig_Exception(org.apache.rocketmq.client.consumer.DefaultLitePullConsumerTest)
+
+%TESTS  101,testPullMessage_SuccessWithOrderlyService(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTE  101,testPullMessage_SuccessWithOrderlyService(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTS  102,testPullMessage_ExceptionOccursWhenComputePullFromWhere(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTE  102,testPullMessage_ExceptionOccursWhenComputePullFromWhere(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTS  103,testGracefulShutdown(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTE  103,testGracefulShutdown(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTS  104,testCheckConfig(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTE  104,testCheckConfig(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTS  105,testPullMessage_Success(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTE  105,testPullMessage_Success(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTS  106,testStart_OffsetShouldNotNUllAfterStart(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTE  106,testStart_OffsetShouldNotNUllAfterStart(org.apache.rocketmq.client.consumer.DefaultMQPushConsumerTest)
+
+%TESTS  108,testPullMessage_Success(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTE  108,testPullMessage_Success(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTS  109,testStart_OffsetShouldNotNUllAfterStart(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTE  109,testStart_OffsetShouldNotNUllAfterStart(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTS  110,testPullMessage_NotFound(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTE  110,testPullMessage_NotFound(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTS  111,testPullMessageAsync_Success(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTE  111,testPullMessageAsync_Success(org.apache.rocketmq.client.consumer.DefaultMQPullConsumerTest)
+
+%TESTS  113,testAllocateMessageQueueAveragely(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragelyTest)
+
+%TESTE  113,testAllocateMessageQueueAveragely(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragelyTest)
+
+%TESTS  115,testAllocateMessageQueueByMachineRoom(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByMachineRoomTest)
+
+%TESTE  115,testAllocateMessageQueueByMachineRoom(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByMachineRoomTest)
+
+%TESTS  117,testRun100RandomCase(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTE  117,testRun100RandomCase(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTS  118,testConsumerIdIllegalArgument(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTE  118,testConsumerIdIllegalArgument(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTS  119,testCurrentCIDNotExists(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTE  119,testCurrentCIDNotExists(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTS  120,testMessageQueueIllegalArgument(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTE  120,testMessageQueueIllegalArgument(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+%TESTS  121,testAllocate1(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTE  121,testAllocate1(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+%TESTS  122,testAllocate2(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTE  122,testAllocate2(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTS  123,testCurrentCIDIllegalArgument(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTE  123,testCurrentCIDIllegalArgument(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsitentHashTest)
+
+%TESTS  125,testAllocateMessageQueueAveragelyByCircle(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragelyByCircleTest)
+
+%TESTE  125,testAllocateMessageQueueAveragelyByCircle(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragelyByCircleTest)
+
+%TESTS  127,testRun10RandomCase(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+
+%TESTE  127,testRun10RandomCase(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+
+%TESTS  128,test1(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+
+%TESTE  128,test1(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+%TESTS  129,test2(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+
+%TESTE  129,test2(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+
+%TESTS  130,test3(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+
+%TESTE  130,test3(org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearByTest)
+
+%TESTS  132,testAllocateMessageQueueByConfig(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByConfigTest)
+
+%TESTE  132,testAllocateMessageQueueByConfig(org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByConfigTest)
+
+%TESTS  134,testReadOffset_WithException(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTE  134,testReadOffset_WithException(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTS  135,testUpdateOffset(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTE  135,testUpdateOffset(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTS  136,testRemoveOffset(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTE  136,testRemoveOffset(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTS  137,testReadOffset_Success(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTE  137,testReadOffset_Success(org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStoreTest)
+
+%TESTS  139,testCloneOffset(org.apache.rocketmq.client.consumer.store.LocalFileOffsetStoreTest)
+
+%TESTE  139,testCloneOffset(org.apache.rocketmq.client.consumer.store.LocalFileOffsetStoreTest)
+
+%TESTS  140,testUpdateOffset(org.apache.rocketmq.client.consumer.store.LocalFileOffsetStoreTest)
+
+%TESTE  140,testUpdateOffset(org.apache.rocketmq.client.consumer.store.LocalFileOffsetStoreTest)
+%TESTS  141,testReadOffset_FromStore(org.apache.rocketmq.client.consumer.store.LocalFileOffsetStoreTest)
+
+%TESTE  141,testReadOffset_FromStore(org.apache.rocketmq.client.consumer.store.LocalFileOffsetStoreTest)
+
+%TESTS  143,testIncrementAndGet(org.apache.rocketmq.client.common.ThreadLocalIndexTest)
+
+%TESTE  143,testIncrementAndGet(org.apache.rocketmq.client.common.ThreadLocalIndexTest)
+
+%TESTS  144,testIncrementAndGet2(org.apache.rocketmq.client.common.ThreadLocalIndexTest)
+
+%TESTE  144,testIncrementAndGet2(org.apache.rocketmq.client.common.ThreadLocalIndexTest)
+%TESTS  145,testIncrementAndGet3(org.apache.rocketmq.client.common.ThreadLocalIndexTest)
+
+%TESTE  145,testIncrementAndGet3(org.apache.rocketmq.client.common.ThreadLocalIndexTest)
+
+%TESTS  147,testGetBrokerClusterConfig(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  147,testGetBrokerClusterConfig(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  148,testQueryConsumerOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  148,testQueryConsumerOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  149,testCreateTopic_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  149,testCreateTopic_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+%TESTS  150,testPopMessageAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  150,testPopMessageAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  151,testSendMessageOneWay_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  151,testSendMessageOneWay_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  152,testAckMessageAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  152,testAckMessageAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+%TESTS  153,testCreatePlainAccessConfig_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  153,testCreatePlainAccessConfig_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  154,testDeleteAccessConfig_Exception(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  154,testDeleteAccessConfig_Exception(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  155,testSendMessageOneWay_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  155,testSendMessageOneWay_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  156,testSetMessageRequestMode_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  156,testSetMessageRequestMode_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  157,testQueryAssignment_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  157,testQueryAssignment_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  158,testSendMessageAsync_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  158,testSendMessageAsync_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  159,testSendMessageSync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  159,testSendMessageSync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+%TESTS  160,testViewMessage(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  160,testViewMessage(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  161,testGetMaxOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  161,testGetMaxOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+%TESTS  162,testResumeCheckHalfMessage_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  162,testResumeCheckHalfMessage_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  163,testUpdateConsumerOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  163,testUpdateConsumerOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  164,testSearchOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  164,testSearchOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  165,testGetMinOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  165,testGetMinOffset(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  166,testSendMessageTypeofReply(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  166,testSendMessageTypeofReply(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  167,testDeleteAccessConfig_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  167,testDeleteAccessConfig_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+%TESTS  168,testSendMessageSync_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  168,testSendMessageSync_WithException(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  169,testResumeCheckHalfMessage_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  169,testResumeCheckHalfMessage_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  170,testAddWritePermOfBroker(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  170,testAddWritePermOfBroker(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+%TESTS  171,testCreatePlainAccessConfig_Exception(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  171,testCreatePlainAccessConfig_Exception(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  172,testGetEarliestMsgStoretime(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  172,testGetEarliestMsgStoretime(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  173,testChangeInvisibleTimeAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  173,testChangeInvisibleTimeAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  174,testSendMessageAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  174,testSendMessageAsync_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  175,testCreateSubscriptionGroup_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  175,testCreateSubscriptionGroup_Success(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  176,testGetConsumerIdListByGroup(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTE  176,testGetConsumerIdListByGroup(org.apache.rocketmq.client.impl.MQClientAPIImplTest)
+
+%TESTS  178,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQProducerWithOpenTracingTest)
+
+%TESTE  178,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQProducerWithOpenTracingTest)
+
+%TESTS  180,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.TransactionMQProducerWithOpenTracingTest)
+
+%TESTE  180,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.TransactionMQProducerWithOpenTracingTest)
+
+%TESTS  182,testEncoderFromContextBean(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTE  182,testEncoderFromContextBean(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTS  183,testEndTrxTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+%TESTE  183,testEndTrxTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTS  184,testEncoderFromContextBean_EndTransaction(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTE  184,testEncoderFromContextBean_EndTransaction(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTS  185,testSubAfterTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTE  185,testSubAfterTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTS  186,testTraceKeys(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTE  186,testTraceKeys(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+%TESTS  187,testPubTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTE  187,testPubTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+%TESTS  188,testDecoderFromTraceDataString(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+%TESTE  188,testDecoderFromTraceDataString(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+%TESTS  189,testSubBeforeTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTE  189,testSubBeforeTraceDataFormatTest(org.apache.rocketmq.client.trace.TraceDataEncoderTest)
+
+%TESTS  191,testSubscribe_PollMessageSuccess_WithCustomizedTraceTopic(org.apache.rocketmq.client.trace.DefaultMQLitePullConsumerWithTraceTest)
+
+%TESTE  191,testSubscribe_PollMessageSuccess_WithCustomizedTraceTopic(org.apache.rocketmq.client.trace.DefaultMQLitePullConsumerWithTraceTest)
+
+%TESTS  192,testLitePullConsumerWithTraceTLS(org.apache.rocketmq.client.trace.DefaultMQLitePullConsumerWithTraceTest)
+
+%TESTE  192,testLitePullConsumerWithTraceTLS(org.apache.rocketmq.client.trace.DefaultMQLitePullConsumerWithTraceTest)
+
+%TESTS  193,testSubscribe_PollMessageSuccess_WithDefaultTraceTopic(org.apache.rocketmq.client.trace.DefaultMQLitePullConsumerWithTraceTest)
+
+%TESTE  193,testSubscribe_PollMessageSuccess_WithDefaultTraceTopic(org.apache.rocketmq.client.trace.DefaultMQLitePullConsumerWithTraceTest)
+
+%TESTS  195,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.TransactionMQProducerWithTraceTest)
+
+%TESTE  195,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.TransactionMQProducerWithTraceTest)
+
+%TESTS  197,testSendMessageSync_WithTrace_NoBrokerSet_Exception(org.apache.rocketmq.client.trace.DefaultMQProducerWithTraceTest)
+
+%TESTE  197,testSendMessageSync_WithTrace_NoBrokerSet_Exception(org.apache.rocketmq.client.trace.DefaultMQProducerWithTraceTest)
+
+%TESTS  198,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQProducerWithTraceTest)
+
+%TESTE  198,testSendMessageSync_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQProducerWithTraceTest)
+
+%TESTS  199,testProducerWithTraceTLS(org.apache.rocketmq.client.trace.DefaultMQProducerWithTraceTest)
+
+%TESTE  199,testProducerWithTraceTLS(org.apache.rocketmq.client.trace.DefaultMQProducerWithTraceTest)
+
+%TESTS  201,testPullMessage_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQConsumerWithOpenTracingTest)
+
+%TESTE  201,testPullMessage_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQConsumerWithOpenTracingTest)
+
+%TESTS  203,testDecodeFromTraceTransData(org.apache.rocketmq.client.trace.TraceViewTest)
+
+%TESTE  203,testDecodeFromTraceTransData(org.apache.rocketmq.client.trace.TraceViewTest)
+
+%TESTS  205,testPushConsumerWithTraceTLS(org.apache.rocketmq.client.trace.DefaultMQConsumerWithTraceTest)
+
+%TESTE  205,testPushConsumerWithTraceTLS(org.apache.rocketmq.client.trace.DefaultMQConsumerWithTraceTest)
+
+%TESTS  206,testPullMessage_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQConsumerWithTraceTest)
+
+%TESTE  206,testPullMessage_WithTrace_Success(org.apache.rocketmq.client.trace.DefaultMQConsumerWithTraceTest)
+
+%TESTS  208,testGetReplyToClient(org.apache.rocketmq.client.utils.MessageUtilsTest)
+
+%TESTE  208,testGetReplyToClient(org.apache.rocketmq.client.utils.MessageUtilsTest)
+
+%TESTS  209,testCreateReplyMessage_reqMsgIsNull(org.apache.rocketmq.client.utils.MessageUtilsTest)
+%TESTE  209,testCreateReplyMessage_reqMsgIsNull(org.apache.rocketmq.client.utils.MessageUtilsTest)
+%TESTS  210,testCreateReplyMessage_Exception(org.apache.rocketmq.client.utils.MessageUtilsTest)
+
+%TESTE  210,testCreateReplyMessage_Exception(org.apache.rocketmq.client.utils.MessageUtilsTest)
+%TESTS  211,testCreateReplyMessage(org.apache.rocketmq.client.utils.MessageUtilsTest)
+
+%TESTE  211,testCreateReplyMessage(org.apache.rocketmq.client.utils.MessageUtilsTest)
